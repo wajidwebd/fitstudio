@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main,header{
+    overflow: hidden;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+}
+.header{
+    background-color: black;
+}
+.uldiv li{
+    color: white;
+    list-style-type: none;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+.uldiv{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_data h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+}
+.home_data h2{
+    font-size: 70px;
+    font-weight: 700;
+    color: #FF5159;
+}
+.home_data p{
+    color: white;
+    width: 50%;
+    margin: 20px 0px;
+}
+.home_data button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-family:'Poppins', sans-serif;
+    border-radius: 3px;
+    border: none;
+}
+.home_data{
+    padding-top: 80px;
+    margin-left: 50px;
+}
+.uldiv li a{
+    color: white;
+    text-decoration: none;
+}
+.uldiv li a:hover{
+    color: #ED7E83;
+}
+
+.gymboyimage{
+    position: relative;
+    top: 14px;
+    right: 80px;
+}
+/* .gymimage{
+    background: url(../Images/gymman.png);
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-position: right;
+} */
+.polyimg{
+    background: url(../Images/Polygon.png);
+    height: 103vh;
+    background-repeat: no-repeat; 
+    background-position: right top;
+    margin-right: -35px;
+}
+
+.feature{
+    margin: 80px 60px 40px 220px;
+}
+.aboutus{
+    width: 100%;
+    padding: 80px 0px;
+    margin-bottom: 25px;
+}
+.about-content{
+    width: 470px;
+}
+.about{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about img{
+    width: 40%;
+}
+.about-content h3{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.about-content h5{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.about-content p{
+    font-size: 16px;
+    line-height: 28px;
+}
+.class-title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 85px;
+    margin: 30px 0px;
+}
+.cardone{
+    width: 27%;
+    border: 1px solid #000000;
+    margin-bottom: 60px;
+}
+.cardtwo{
+    width: 27%;
+    border: 1px solid #000000;
+    margin-bottom: 60px;
+}
+.cardthree{
+    width: 27%;
+    border: 1px solid #000000;
+    margin-bottom: 60px;
+}
+.cardfour{
+    width: 27%;
+    border: 1px solid #000000;
+}
+.cardfive{
+    width: 27%;
+    border: 1px solid #000000;
+}
+.cardsix{
+    width: 27%;
+    border: 1px solid #000000;
+}
+.cardcontent p{
+    font-weight: 500;
+    margin: 25px 0px;
+    text-align: center;
+}
+.cardimg img{
+    width: 100%;
+}
+.cardcontent button{
+    padding: 10px 30px;
+    font-family:'Poppins', sans-serif;
+    background-color: white;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    margin-left: 108px;
+    border: 1px solid black;
+}
+.trainers-title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 80px;
+    margin-top: 150px; 
+}
+.maincard1{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+    margin: 40px 0px;
+}
+.trainer-text h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.trainer-text p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.trainer1{
+    border: 1px solid #000000;
+}
+.trainer2{
+    border: 1px solid #000000;
+}
+.trainer3{
+    border: 1px solid #000000;
+}
+.pricing-title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 60px 0px;
+}
+.price-row{
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.price-details{
+    background: #000000;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.price-details p{
+    font-size: 20px;
+}
+.price-details h3{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 20px 0 40px;
+}
+.price-details h3 span{
+    font-size: 17px;
+}
+.price-details ul{
+    color: #ddd;
+    margin: 20px 0px;
+    list-style-type: none;
+    text-align: left;
+}
+.price-details ul li{
+    margin: 15px 0px;
+}
+.price-details ul li::before{
+    content: '\2022';
+    color: #FF5159;
+    font-weight: 500;
+    margin-right: 8px;
+}
+.price-details button{
+    padding: 14px 0;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #e33058;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background 0.5s;
+}
+.price-details button:hover{
+    background: #FF5159;
+}
+.review-title h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 60px 0px;
+}
+.price-details ul li s{
+    color: hsla(0, 0%, 87%, 0.514);
+}
+.footer1 h2,.footer2 h2,.footer3 h2,.footer4 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FC0531;
+    margin-bottom: 20px;
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.footer1 p{
+    width: 77%;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer1{
+    width: 400px;
+}
+.footer2{
+    width: 300px;
+}
+.footer3{
+    width: 300px;
+}
+.footer4{
+    width: 300px;
+}
+.footer2 ul,.footer3 ul{
+    margin-top: 20px;
+    
+}
+.footer2 ul li,.footer3 ul li{
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 35px;
+}
+.footer2 ul li:hover{
+    color: #FF5159;
+}
+.footer3 ul li:hover{
+    color: #FF5159;
+}
+.footer4 ul li{
+    display: flex;
+}
+footer{
+    background-color: #151414;
+    color: #fff;
+    padding: 45PX 15px;
+}
+.address-text h4,.phone-text h4{
+    color: #FC0531;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.address i,.phone i{
+    color: #ED7E83;
+    float: left;
+    margin-top: 4px;
+}
+.address-text,.phone-text{
+    padding-left: 23px;
+    margin-top: 4px;
+}
+.address-text span,.phone-text span{
+    font-size: 15px;
+}
+.phone{
+    margin-top: 20px;
+}
+.social-icon span{
+    color: #FC0531;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.social-icon a{
+    color: #000;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.social-icon i{
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #fff;
+}
+.time{
+    line-height: 30px;
+}
+.social-icon i:hover{
+    color: #FC0531;
+}
+.copyright p{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 0;
+}
+.maindivreview{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.mainreview{
+    display: flex;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.review-one{
+    width: 80px;
+    height: auto;
+    background-color: #FC0531;
+}
+.review-content{
+    width: 257px;
+    height: auto;
+    padding-left: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+.circleimage{
+    position: relative;
+    top: 80px;
+    left: 40px;
+    width: 85px;
+}
+.review-content p{
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.review-content h5{
+    font-size: 17px;
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+.maindiv{
+    /* position: fixed;
+    top: 0; */
+    /* background-color: #000; */
+    width: 100%;
+    /* z-index: 1; */
+}
+.home{
+    margin-top: 13px;
+}
+.flex{
+    display: flex;
+}
+footer{
+    margin-top: 80px;
+}
+.reviews{
+    margin-top: 70px;
+}
+
+
+/* Mobile Responsive */
+
+@media screen and (max-width:500px)  {
+    header,main,footer{
+        overflow: hidden;
+    }
+    .maindiv,.maincard1,.mainfooter,.maindivreview,.maincard,.about{
+        display: block;
+    }
+
+    .feature {
+        margin: 50px 60px 40px 65px;
+    }
+    /* body{
+        background-color: #e33058;
+    } */
+    .gymboyimage{
+        display: none;
+    }
+    .home_data h1{
+        font-size: 25px;
+    }
+    .home_data h2{
+        font-size: 35px;
+    }
+    .home_data p{
+        font-size: 13px;
+        width: 40%;
+    }
+    .home_data {
+        padding-top: 60px;
+        margin-left: 30px;
+    }
+    .about-content h3{
+        font-size: 28px;
+    }
+    .about-content p{
+        font-size: 13px;
+        width: 75%;
+    }
+    .about-content h5{
+        font-size: 15px;
+    }
+    .class-title h2{
+        font-size: 24px;
+    }
+    .trainers-title h2{
+        font-size: 24px;
+    }
+    .pricing-title h2{
+        font-size: 28px;
+    }
+    .review-title h2{
+        font-size: 28px;
+    }
+    .trainer-img img{
+        width: 100%;
+    }
+    .trainer1,.trainer2,.trainer3{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .cardone, .cardtwo, .cardthree, .cardfour, .cardfive, .cardsix{
+        width: 80%;
+        margin:auto;
+        margin-bottom: 70px;
+    }
+    .about img {
+        width: 90%;
+    }
+    .mainreview{
+        width: 96%;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    .review-content p{
+        font-size: 13px;
+    }
+    .polyimg{
+        height: 600px;
+        margin-right: -380px
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ipad responsive */
+@media (min-width:750px) and (max-width:850px) {
+    
+}
